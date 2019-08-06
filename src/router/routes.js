@@ -100,6 +100,16 @@ const childrenRoute = [
     },
     component: _import('system/index')
   },
+  // 权限
+  {
+    path: 'authority/system',
+    name: 'authority/system',
+    meta: {
+      title: '系统管理',
+      auth: true
+    },
+    component: _import('authority/system')
+  },
   // 图表
   {
     path: 'expert_info',

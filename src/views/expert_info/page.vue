@@ -197,7 +197,7 @@
                     <el-input v-model="avoidUnitForm.enterpriseName" placeholder="请输入企业名称"></el-input>
                   </el-form-item>
                 </el-col>
-                <el-col :span="12" prop="devpOrgCode">
+                <el-col :span="12">
                   <el-form-item label="组织机构代码" prop="devpOrgCode" >
                     <el-input v-model="avoidUnitForm.devpOrgCode" placeholder="请输入组织机构代码"></el-input>
                   </el-form-item>
